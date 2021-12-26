@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row>[class*="col-"]{
+    padding: 12px;
+}
+.small-spacing>[class*="col-"]{
+    padding: 4px !important;
+}
+.collapse>[class*="col-"]{
+    padding: 0 !important ;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-flexend{
+    justify-content: flex-end;
+}
+.align-center{
+    align-items: center;
+}
+.align-s-end{
+    align-self: flex-end;
+}
+.w-100{
+    width: 100%;
+}
+.col-1{
+    width:8.33%;
+}
+.col-2{
+    width:16.66% ;
+}
+.col-3{
+    width:25% ;
+}
+.col-4{
+    width:33.33% ;
+}
+.col-5{
+    width:41.66% ;
+}
+.col-6{
+    width:50% ;
+}
+.col-7{
+    width:58.33% ;
+}
+.col-8{
+    width:66.66% ;
+}
+.col-9{
+    width:75% ;
+}
+.col-10{
+    width: 83.33% ;
+}
+.col-11{
+    width:91.66% ;
+}
+.col-12{
+    width: 100% ;
+}
+.p-1{
+    padding: 8px;
+}
+.pl-1{
+    padding-left: 8px;
+}
+.pr-1{
+    padding-right: 8px;
+}
+.pt-1{
+    padding-top: 8px;
+}
+.pb-1{
+    padding-bottom: 8px;
+}
+.px-1{
+    padding: 0 8px;
+}
+.py-1{
+    padding: 8px 0;
+}
+
+
+.p-2{
+    padding: 16px;
+}
+.pl-2{
+    padding-left: 16px;
+}
+.pr-2{
+    padding-right: 16px;
+}
+.pt-2{
+    padding-top: 16px;
+}
+.pb-2{
+    padding-bottom: 16px;
+}
+.px-2{
+    padding: 0 16px;
+}
+.py-2{
+    padding: 16px 0;
+}
+
+.p-4{
+    padding: 32px;
+}
+.pl-4{
+    padding-left: 32px;
+}
+.pr-4{
+    padding-right: 32px;
+}
+.pt-4{
+    padding-top: 32px;
+}
+.pb-4{
+    padding-bottom: 32px;
+}
+.px-4{
+    padding: 0 32px;
+}
+.py-4{
+    padding: 32px 0;
+}
+
+
+.p-8{
+    padding: 64px;
+}
+.pl-8{
+    padding-left: 64px;
+}
+.pr-8{
+    padding-right: 64px;
+}
+.pt-8{
+    padding-top: 64px;
+}
+.pb-8{
+    padding-bottom: 64px;
+}
+.px-8{
+    padding: 0 64px;
+}
+.py-8{
+    padding: 64px 0;
+}
+
+.pt-14{
+    padding-top: 112px;
+}
+.pl-14{
+    padding-left: 112px;
+}
+
+.m-1{
+    margin: 8px;
+}
+.ml-1{
+    padding-left: 8px;
+}
+.mr-1{
+    padding-right: 8px;
+}
+.mt-1{
+    padding-top: 8px;
+}
+.mb-1{
+    padding-bottom: 8px;
+}
+.mx-1{
+    padding: 0 8px;
+}
+.my-1{
+    padding: 8px 0;
+}

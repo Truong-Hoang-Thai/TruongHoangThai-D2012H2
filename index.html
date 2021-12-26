@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="column.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-12 row justify-between">
+                    <div class="logo">
+                        <a href="#"><img src="./img/Logo.png" alt=""></a>
+                    </div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#">TRANG CHỦ</a></li>
+                            <li><a href="#">GIỚI THIỆU</a></li>
+                            <li><a href="#">SẢN PHẨM</a></li>
+                            <li><a href="#">TIN TỨC</a></li>
+                            <li><a href="#">TUYỂN DỤNG</a></li>
+                            <li><a href="#">LIÊN HỆ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-1">
+        <div class="row justify-center align-center">
+            <div class="col-7">
+                <div class="slider ">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+
+                        <div class="slide first">
+                            <img src="./img/h1.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./img/trung2.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./img/trung3.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./img/trứng 1.jpg" alt="">
+                        </div>
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                    </div>
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 3000);
+    </script>
+
+
+
+    <section class="pt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="h1">
+                        <h1>
+                            CUNG CẤP<br>
+                            “TRỨNG TƯƠI MỖI NGÀY”<br>
+                            TỪ TRANG TRẠI XANH
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <p>
+                        Mỗi ngày, Mighty Farm cung cấp ra thị trường hơn 500 ngàn quả trứng gà sạch trực tiếp từ trang
+                        trại xanh. Hiểu rõ “đàn gà khỏe là chìa khóa vàng cho trứng gà ngon”, Mighty Farm dành sự chăm
+                        sóc đặc biệt cho đàn gà với quy trình chăn nuôi khép kín hiện đại.
+                    </p>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-8 row justify-between">
+                    <div class="box">
+                        <div class="icon ">
+                            <img src="./img/daydudinhduong.png" alt="">
+                        </div>
+                        <p>Cung cấp đầy đủ<br>dinh dưỡng</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon ">
+                            <img src="./img/khongchatbaoquan.png" alt="">
+                        </div>
+                        <p>Không chất bảo<br>quản</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon ">
+                            <img src="./img/khongchatcam.png" alt="">
+                        </div>
+                        <p>Không kháng sinh</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <img src="./img/khonghocmon.png" alt="">
+                        </div>
+                        <p>Không hooc môn<br>tăng trưởng</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon ">
+                            <img src="./img/khongkhangsinh.png" alt="">
+                        </div>
+                        <p>Không sử dụng<br>chất cấm</p>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                  
+                    <h2 class="tn">Tầm nhìn</h2>
+                    <h2 class="sm">Sứ mệnh</h2>
+                    <h2 class="gtcl">Giá trị cốt lõi</h2>
+
+                </div>
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <div class="h1 pb-2">
+                        <h1>TẦM NHÌN</h1>
+                    </div>
+                    <p>Trở thành công ty hàng đầu Việt Nam về cung cấp trứng gà sạch theo quy trình chăn nuôi khép kín
+                        cho thị trường trong nước và nước ngoài.</p>
+                </div>
+                <div class="col-8">
+                    <div class="h1 pb-2">
+                        <h1>SỨ MỆNH</h1>
+                    </div>
+                    <p>Luôn đặt chất lượng sản phẩm lên hàng đầu khi đến tay người tiêu dùng. Chúng tôi lập kế hoạch tất
+                        cả các giai đoạn sản xuất để có thể bảo vệ môi trường ở mức cao nhất.</p>
+                </div>
+                <div class="col-4">
+                    <div class="h1 pb-2">
+                        <h1>GIÁ TRỊ CỐT LÕI</h1>
+                    </div>
+                    <p>Tafa Việt cam kết mang đến cho cộng đồng thực phẩm xanh - sạch chất lượng cao, giàu dinh dưỡng.
+                        Cam kết sử dụng 100% bao bì giấy phân hủy được, góp phần bảo vệ môi trường.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="pt-8">
+        <div class="container">
+            <div class="row justify-center">
+                <div class="col-2 ">
+                    <div class="h1 ">
+                        <h1>SẢN PHẨM</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="box">
+                        <p>Được sản xuất từ chuỗi trang trại tự động khép kín hoàn toàn, trứng gà và thịt gà đảm bảo cả
+                            hai yếu tố “xanh” và “sạch”. Tại chuỗi trang trại tự động Mighty Farm, việc chăn nuôi gà
+                            được chăm chút kỹ lưỡng trong từng khâu, đáp ứng mọi tiêu chuẩn khắt khe về mặt kỹ thuật
+                            nhằm mang đến những sản phẩm chất lượng cao nhất cho người tiêu dùng.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-8">
+        <div class="container">
+            <div class="row ">
+                <div class="col-6">
+                    <div class="box">
+                        <div class="h1 pb-2">
+                            <h1>TRỨNG GÀ SẠCH MIGHTY FARM</h1>
+                        </div>
+                        <p>Những quả trứng đều tăm tắp, được xử lý tiệt trùng, vừa đẹp mắt lại đảm bảo hương vị với lòng
+                            đỏ óng ánh hấp dẫn, hứa hẹn mang đến những món ăn tuyệt hảo. Trứng gà sạch Mighty Farm là
+                            chứa đựng những tinh hoa đánh thức vị giác, mang đến cảm nhận hoàn toàn khác biệt</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="sanpham">
+<img src="./img/vỉ trứng.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="sanpham">
+                        <img src="./img/gà.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6 pt-4">
+                    <div class="box">
+                        <div class="h1 pb-2">
+                            <h1>THỊT GÀ SẠCH MIGHTY FARM</h1>
+                        </div>
+                        <p>Với giống gà tốt cho năng suất cao, cùng với việc được nuôi dưỡng tốt theo quy trình chăn
+                            nuôi khép kín cùng nguồn thức ăn sạch, không hoocmon tăng trưởng, không chất cấm, Mighty
+                            Farm mang đến cho thị trường nguồn thịt gà chất lượng cao.</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="box">
+                        <div class="h1 pb-2">
+                            <h1>PHÂN GÀ TƯƠI MIGHTY FARM</h1>
+                        </div>
+                        <p>Phân gà sau khi được đưa
+                            tới nhà máy sẽ được khử khuẩn, tổng
+                            hợp và đóng gói. Phân bón gà tươi có
+                            ưu điểm là quy trình sản xuất, đóng gói
+                            nhanh, tiết kiệm chi phí, giá thành cũng
+                            rẻ. Nhược điểm là phân gà chưa được xử
+                            lý kỹ, vẫn còn lẫn tạp chất, mức độ dinh
+                            dưỡng cho cây ở mức trung bình khá.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="sanpham-1">
+<img src="./img/Phân bón gà tươi.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="sanpham-1">
+                        <img src="./img/Phân bón gà xử lí vi sinh.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6 ">
+                    <div class="box pt-8">
+                        <div class="h1 pb-2">
+                            <h1>PHÂN BÓN GÀ VI SINH MIGHTY FARM</h1>
+                        </div>
+                        <p>Sau khi được công nhân đưa vào nhà máy, một nửa số phân gà sẽ được chuyển vào băng chuyền xử
+                            lý vi sinh của Mighty Farm. Quá trình xử lí được diễn ra rất tỉ mỉ và an toàn. Vì được qua
+                            xử lý vi sinh nên chất lượng của sản phẩm cũng tốt hơn phân bón gà tươi rất nhiều. Tuy nhiên
+                            quá trình sản xuất lâu, cộng với giá thành cao hơn so với phân bón gà tươi là những nhược
+                            điểm mà Mighty Farm đã và đang tìm cách khắc phục để có thể mang đến cho khách hàng những
+                            sản phẩm vừa có chất lượng tốt vừa có giá thành hợp lý.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bgcl pb-4">
+        <div class="row justify-center">
+            <div class="col-4 ">
+                <div class="h1 pl-8 pt-4">
+                    <h1>LIÊN HỆ MIGHTY FARM</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-4">
+                <div class="box">
+                    <div class="text-a">
+                        <h1>A</h1>
+                    </div>
+                    <p class="h3">1/11 Đặng Thùy Trâm, Phường 13,<br>
+                        Quận Bình Thạnh, Tp.HCM</p>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="box">
+                    <div class="text-a">
+                        <h1>W</h1>
+                    </div>
+                    <p class="h3">Mightyfarm@gmail.com<br>
+                        www.mightyfarm.com.vn</p>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="box">
+                    <div class="text-a">
+                        <h1>P</h1>
+                    </div>
+                    <p class="h3">+84 028 686 8686<br>
+                        +84 028 696 9696</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer class="footer-bg">
+    <div class="row justify-center">
+        <div class="col-4">
+            <div class="logo-1">
+                <a href="#"><img src="./img/Logo.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-center">
+        <div class="col-3">
+            <P class="white">Copyright 2021 @HoangThai</P>
+        </div>
+    </div>
+</footer>
+
+<div class="sp-container">
+    <div class="sp-content">
+      <div class="sp-globe"></div>
+      <h2 class="frame-1">Hello Teacher</h2>
+      <h2 class="frame-2">Merry Christmas</h2>
+      <h2 class="frame-3">And</h2>
+      <h2 class="frame-4">Happy New Year</h2>
+      <h2 class="frame-5"> Chúc thầy<br>có thật nhiều sức khỏe</h2>
+    </div>
+  </div>
+
+</html>
